@@ -5,7 +5,7 @@ const IndexPage = ({ name }) => {
   return (
     <main>
       <title>Home Page</title>
-      <h1>Changes with stagehand</h1>
+      <h1>Changes with stagehand 2nd TRY!</h1>
       <Link to="/about">{name}</Link>
       <p>Hello world</p>
     </main>
