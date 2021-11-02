@@ -12,10 +12,14 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
+    "@ninetailed/experience-sdk-react": "^2.3.5-beta.3",
+    "@ninetailed/gatsby-plugin-ninetailed": "^1.1.0-alpha.2",
     "gatsby": "^3.14.2",
+    "gatsby-plugin-s3": "^0.3.8",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
